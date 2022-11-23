@@ -1,0 +1,14 @@
+if game.PlaceId == 10723695195 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Red HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "Red"})
+
+
+local jogadorTab = Window:MakeTab({
+Name = "Jogador",
+Icon = "rbxassetid://4483345998",
+PremiumOnly = false
+})
+
+
+end
+OrionLib:Init()
